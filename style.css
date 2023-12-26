@@ -4,10 +4,16 @@
     box-sizing: border-box;
     font-family: "Gotham Bold", sans-serif;
 }
+/* .pattern-dots-lg{
+    background: repeating-radial-gradient(#e66465, #9198e5 20%);
+} */
 
 body {
-    background: rgb(31, 34, 53);
-    background: linear-gradient(90deg, rgba(31, 34, 53, 1) 26%, rgba(68, 75, 116, 1) 79%, rgba(98, 107, 163, 1) 100%);
+    background-image: radial-gradient(#ff5823 3.5px, transparent 3.5px);
+background-size: 90px 90px;
+background-color: #1f2235;
+    /* background: rgb(31, 34, 53); */
+    /* background: linear-gradient(90deg, rgba(31, 34, 53, 1) 26%, rgba(68, 75, 116, 1) 79%, rgba(98, 107, 163, 1) 100%); */
     display: flex;
     justify-content: center;
     align-items: center;
